@@ -11,7 +11,8 @@ Use the HWUI and profile settings if it doesn't start.
 
 Known issues & notes:  
 Device compatibility: Tested with Galaxy S24 Ultra, HTC U12+.  
-App crashes: You might encounter a black screen in some built-in apps. If this happens, restart the specific app (not the entire system).  
+App crashes: You might encounter a black screen in some built-in apps. If this happens, restart the specific app (not the entire system).
+At the moment, the emulator does not work with Xclipse GPUs, as they are relatively specialized GPUs based on AMD's RDNA architecture.
 Wallpapers: Wallpapers may occasionally disappear. If they do, restart the system.  
 HTTPS & Certificates: Go to http://ca.m7/ to add certificates to third-party browsers (like Firefox). This is required for HTTPS to work, as a proxy layer is used to forward requests to the main system.  
 File transfer: To add your own files to the ROM, transfer them to the HTC One M7 directory in the root of your SD card.  
